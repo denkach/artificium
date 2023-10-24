@@ -1,0 +1,23 @@
+#root {
+  background-color: #131619;
+}
+
+h1,h2,h3,h4,h5, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+

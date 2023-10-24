@@ -1,0 +1,145 @@
+export const theme = {
+  colors: {
+    nobleBlack: {
+      nb100: "#E8E9E9",
+      nb200: "#CDCECF",
+      nb300: "#9B9C9E",
+      nb400: "#686B6E",
+      nb500: "#363A3D",
+      nb600: "#1A1D21",
+      nb700: "#131619",
+      nb800: "#0D0F10",
+      nb900: "#060708",
+    },
+    dayBlue: {
+      db100: "#EBEDFC",
+      db200: "#D2D8F9",
+      db300: "#A6B0F2",
+      db400: "#7989EC",
+      db500: "#4D62E5",
+      db600: "#3045C9",
+      db700: "#243497",
+      db800: "#182364",
+      db900: "#0C1132",
+    },
+    purpleBlue: {
+      pb100: "#F0E8FD",
+      pb200: "#DECCFB",
+      pb300: "#BD9AF8",
+      pb400: "#9C67F4",
+      pb500: "#7C35F1",
+      pb600: "#5F18D4",
+      pb700: "#47129F",
+      pb800: "#300C6A",
+      pb900: "#180635",
+    },
+    sunglow: {
+      s100: "#FFFAEA",
+      s200: "#FFF3D1",
+      s300: "#FFE8A3",
+      s400: "#FFDC75",
+      s500: "#FFD147",
+      s600: "#E2B42B",
+      s700: "#AA8720",
+      s800: "#715A15",
+      s900: "#392D0B",
+    },
+    stemGreen: {
+      sg100: "#F7FDF4",
+      sg200: "#EDFBE6",
+      sg300: "#DBF7CD",
+      sg400: "#C8F4B4",
+      sg500: "#B6F09C",
+      sg600: "#9AD37F",
+      sg700: "#739F5F",
+      sg800: "#4D6A3F",
+      sg900: "#263520",
+    },
+    heisenbergBlue: {
+      hb100: "#F1FBFE",
+      hb200: "#E0F6FD",
+      hb300: "#C0EDFB",
+      hb400: "#A1E4F9",
+      hb500: "#82DBF7",
+      hb600: "#65BEDA",
+      hb700: "#4C8FA4",
+      hb800: "#335F6D",
+      hb900: "#193037",
+    },
+    happyOrange: {
+      ho100: "#FFF2E9",
+      ho600: "#E26F20",
+      ho900: "#391C08",
+    },
+    electricGreen: {
+      eg100: "#F3FBF7",
+      eg600: "#4AC97E",
+      eg900: "#122B1D",
+    },
+    redPower: {
+      rp100: "#FBECEC",
+      rp600: "#D0302F",
+      rp900: "#2F0F0E",
+    },
+  },
+   gradients: {
+       greenBlueDayblue600: "225deg, #3045C9 0%, #65BEDA 45.31%, #9AD37F 100%",
+       dayblueBlueGreen600: "45deg, #3045C9 0%, #65BEDA 45.31%, #9AD37F 100%",
+       greenBlueDayblue500: "225deg, #4D62E5 0%, #87DDEE 45.31%, #B6F09C 100%",
+       dayblueBlueGreen500: "45deg, #4D62E5 0%, #87DDEE 45.31%, #B6F09C 100%",
+       greenBlue500: "225deg, #82DBF7 0%, #B6F09C 100%",
+       blueGreen500: "45deg, #82DBF7 0%, #B6F09C 100%",
+  },  
+  space: [0, 2, 4, 8, 12, 16, 24, 32, 40, 48, 56, 64],
+  fonts: {
+    body: 'Plus Jakarta Sans',
+  },
+  fontSizes: {
+    heading: {
+        s: "20px",
+        xs: "24px",
+        m: "28px",
+        l: "32px",
+        xl: "36px",
+        
+    },
+    body: {
+        s: "12px",
+        m: "14px",
+        l: "16px",
+        xl: "18px",
+    }
+  },
+  fontWeights: {
+    regular: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+  },
+  lineHeights: {
+    heading: {
+        s: 1.4,
+        xs: 1.333,
+        m: 1.286,
+        l: 1.25,
+        xl: 1.222,
+        
+    },
+    body: {
+        s: 1.5,
+        m: 1.429,
+        l: 1.5,
+        xl: 1.556,
+    }
+  },
+  borders: {
+    none: 'none',
+    normal: '1px solid',
+    thick: '3px solid'
+  },
+  radii: {
+    none: '0',
+    normal: '8px',
+    round: '50%',
+  },
+};
